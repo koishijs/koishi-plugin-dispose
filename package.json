@@ -1,0 +1,50 @@
+{
+  "name": "koishi-plugin-dispose",
+  "version": "1.0.0",
+  "description": "Koishi 退群插件",
+  "main": "dist/index.js",
+  "typings": "dist/src/index.d.ts",
+  "scripts": {
+    "lint": "eslint --fix .",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://code.mycard.moe/3rdeye/koishi-plugin-dispose.git"
+  },
+  "author": "Nanahira",
+  "license": "MIT",
+  "keywords": [
+    "Koishi.js",
+    "qqbot",
+    "cqhttp",
+    "onebot"
+  ],
+  "bugs": {
+    "url": "https://code.mycard.moe/3rdeye/koishi-plugin-dispose/issues"
+  },
+  "homepage": "https://code.mycard.moe/3rdeye/koishi-plugin-dispose",
+  "dependencies": {
+    "source-map-support": "^0.5.20"
+  },
+  "peerDependencies": {
+    "@koishijs/plugin-onebot": "^4.0.0-alpha.7",
+    "koishi": "^4.0.0-alpha.9"
+  },
+  "devDependencies": {
+    "@koishijs/plugin-onebot": "^4.0.0-alpha.7",
+    "@types/node": "^16.10.3",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "koishi": "^4.0.0-alpha.9",
+    "prettier": "^2.4.1",
+    "raw-loader": "^4.0.2",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.3",
+    "webpack": "^5.57.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
