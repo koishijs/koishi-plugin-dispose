@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://code.mycard.moe/3rdeye/koishi-plugin-dispose.git"
+    "url": "https://github.com/koishijs/koishi-plugin-dispose.git"
   },
   "author": "Nanahira <nanahira@momobako.com>",
   "license": "MIT",
@@ -21,9 +21,9 @@
     "onebot"
   ],
   "bugs": {
-    "url": "https://code.mycard.moe/3rdeye/koishi-plugin-dispose/issues"
+    "url": "https://github.com/koishijs/koishi-plugin-dispose/issues"
   },
-  "homepage": "https://code.mycard.moe/3rdeye/koishi-plugin-dispose",
+  "homepage": "https://github.com/koishijs/koishi-plugin-dispose",
   "dependencies": {
     "source-map-support": "^0.5.20"
   },
