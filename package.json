@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://code.mycard.moe/3rdeye/koishi-plugin-dispose.git"
   },
-  "author": "Nanahira",
+  "author": "Nanahira <nanahira@momobako.com>",
   "license": "MIT",
   "keywords": [
     "Koishi.js",
