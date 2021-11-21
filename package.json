@@ -1,6 +1,35 @@
 {
+  "name": "koishi-plugin-dispose",
+  "version": "2.0.0",
+  "description": "Koishi 退群插件，管理员使用 `dispose` 命令即可退群。",
+  "main": "dist/index.js",
+  "typings": "dist/src/index.d.ts",
+  "scripts": {
+    "lint": "eslint --fix .",
+    "build": "webpack && env PACK_ALL=1 webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/koishijs/koishi-plugin-dispose.git"
+  },
+  "author": "Nanahira <nanahira@momobako.com>",
+  "license": "MIT",
+  "keywords": [
+    "Koishi.js",
+    "qqbot",
+    "cqhttp",
+    "onebot"
+  ],
+  "bugs": {
+    "url": "https://github.com/koishijs/koishi-plugin-dispose/issues"
+  },
+  "homepage": "https://github.com/koishijs/koishi-plugin-dispose",
   "dependencies": {
     "source-map-support": "^0.5.20"
+  },
+  "peerDependencies": {
+    "@koishijs/plugin-adapter-onebot": "^4.0.0-beta.2",
+    "koishi": "^4.0.0-beta.2"
   },
   "devDependencies": {
     "@koishijs/plugin-adapter-onebot": "^4.0.0-beta.2",
@@ -17,9 +46,5 @@
     "typescript": "^4.4.3",
     "webpack": "^5.57.1",
     "webpack-cli": "^4.8.0"
-  },
-  "peerDependencies": {
-    "koishi": "^4.0.0-alpha.9"
-  },
-  "version": "0.0.1"
+  }
 }
