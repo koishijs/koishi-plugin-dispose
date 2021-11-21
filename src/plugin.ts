@@ -1,6 +1,6 @@
 import 'source-map-support/register';
 import { Context, Schema, Session } from 'koishi';
-import type { OneBotBot } from '@koishijs/plugin-onebot/lib/bot';
+import type { OneBotBot } from '@koishijs/plugin-adapter-onebot/lib/bot';
 
 export interface Config {
   commmandName?: string;
