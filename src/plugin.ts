@@ -3,7 +3,7 @@ import { Context, Schema, Session } from 'koishi';
 import type { OneBotBot } from '@koishijs/plugin-onebot/lib/bot';
 
 export interface Config {
-  commmandName: string;
+  commmandName?: string;
 }
 
 export class MyPlugin {
@@ -42,7 +42,7 @@ export class MyPlugin {
   }
   apply(ctx: Context, config: Config) {
     this.ctx = ctx;
-    this.config = Schema.validate(config, this.schema);
+    this.config = config;
     this.ctx
       .logger('dispose')
       .info(`Loaded dispose command as ${this.config.commmandName}`);
