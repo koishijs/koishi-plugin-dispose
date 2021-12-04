@@ -2,15 +2,15 @@ import 'source-map-support/register';
 import { Context, Schema, Session } from 'koishi';
 import type { OneBotBot } from '@koishijs/plugin-adapter-onebot/lib/bot';
 
-export interface Config {
+export interface PluginConfig {
   commmandName?: string;
 }
 
 export class MyPlugin {
-  config: Config;
+  config: PluginConfig;
   ctx: Context;
   name = 'dispose-main';
-  schema: Schema<Config> = Schema.object({
+  schema: Schema<PluginConfig> = Schema.object({
     commmandName: Schema.string().description('退群命令名称').default('dispose'),
   });
   private async onQuit(session: Session) {
@@ -40,7 +40,7 @@ export class MyPlugin {
     }
     return;
   }
-  apply(ctx: Context, config: Config) {
+  apply(ctx: Context, config: PluginConfig) {
     this.ctx = ctx;
     this.config = config;
     this.ctx
