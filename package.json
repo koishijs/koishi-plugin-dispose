@@ -1,6 +1,6 @@
 {
   "name": "koishi-plugin-dispose",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "Koishi 退群插件，管理员使用 `dispose` 命令即可退群。",
   "main": "dist/index.js",
   "typings": "dist/src/index.d.ts",
