@@ -11,7 +11,9 @@ export class MyPlugin {
   ctx: Context;
   name = 'dispose-main';
   schema: Schema<PluginConfig> = Schema.object({
-    commmandName: Schema.string().description('退群命令名称').default('dispose'),
+    commmandName: Schema.string()
+      .description('退群命令名称')
+      .default('dispose'),
   });
   private async onQuit(session: Session) {
     this.ctx
