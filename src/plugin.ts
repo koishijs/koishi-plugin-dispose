@@ -4,7 +4,7 @@ import type { OneBotBot } from '@koishijs/plugin-adapter-onebot/lib/bot';
 
 export interface PluginConfig {
   commmandName?: string;
-  leaveMessage: string;
+  leaveMessage?: string;
 }
 
 export class MyPlugin {
