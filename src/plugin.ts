@@ -22,7 +22,9 @@ export class MyPlugin {
   private async onQuit(session: Session) {
     this.ctx
       .logger('dispose')
-      .info(`Got dispose in ${session.guildId} by ${session.userId}`);
+      .info(
+        `Got dispose from ${session.selfId} in ${session.guildId} by ${session.userId}`,
+      );
     if (!session.guildId) {
       return;
     }
