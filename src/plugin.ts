@@ -4,6 +4,7 @@ import type { OneBotBot } from '@koishijs/plugin-adapter-onebot/lib/bot';
 
 export interface PluginConfig {
   commmandName?: string;
+  leaveMessage: string;
 }
 
 export class MyPlugin {
@@ -14,6 +15,9 @@ export class MyPlugin {
     commmandName: Schema.string()
       .description('退群命令名称')
       .default('dispose'),
+    leaveMessage: Schema.string()
+      .description('确认退群消息')
+      .default('确定要请我退群吗？输入 yes 以退群。'),
   });
   private async onQuit(session: Session) {
     this.ctx
@@ -31,6 +35,11 @@ export class MyPlugin {
       !memberInfo.roles ||
       !memberInfo.roles.some((r) => r === 'owner' || r === 'admin')
     ) {
+      return;
+    }
+    await session.send(this.config.leaveMessage);
+    const result = await session.prompt();
+    if (result !== 'yes') {
       return;
     }
     try {
