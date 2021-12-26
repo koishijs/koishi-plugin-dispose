@@ -62,7 +62,10 @@ export class MyPlugin {
     this.ctx
       .platform('onebot')
       .guild()
-      .command(this.config.commmandName, '退群')
+      .command(
+        this.config.commmandName,
+        '退群。请使用这个命令让我退群，不要移出我。',
+      )
       .usage('请不要直接踢我出去，而是使用这个命令让我自己退群。')
       .action(({ session }) => this.onQuit(session));
   }
