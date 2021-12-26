@@ -28,19 +28,18 @@
     "source-map-support": "^0.5.20"
   },
   "peerDependencies": {
-    "@koishijs/plugin-adapter-onebot": "^4.0.0-beta.4",
-    "koishi": "^4.0.0-beta.6"
+    "@koishijs/plugin-adapter-onebot": "^4.0.0-rc.0",
+    "koishi": "^4.0.0-rc.0"
   },
   "devDependencies": {
-    "@koishijs/plugin-adapter-onebot": "^4.0.0-beta.4",
-    "@koishijs/plugin-onebot": "^4.0.0-alpha.8",
+    "@koishijs/plugin-adapter-onebot": "^4.0.0-rc.0",
     "@types/node": "^16.10.3",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.1",
-    "koishi": "^4.0.0-beta.6",
+    "koishi": "^4.0.0-rc.0",
     "prettier": "^2.4.1",
     "raw-loader": "^4.0.2",
     "ts-loader": "^9.2.6",
