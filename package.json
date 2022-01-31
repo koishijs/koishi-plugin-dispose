@@ -29,7 +29,7 @@
   },
   "peerDependencies": {
     "@koishijs/plugin-adapter-onebot": "^4.0.0",
-    "koishi": "^4.1.0"
+    "koishi": "^4.1.1"
   },
   "devDependencies": {
     "@koishijs/plugin-adapter-onebot": "^4.0.0",
@@ -39,7 +39,7 @@
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.1",
-    "koishi": "^4.1.0",
+    "koishi": "^4.1.1",
     "prettier": "^2.4.1",
     "raw-loader": "^4.0.2",
     "ts-loader": "^9.2.6",
