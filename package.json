@@ -29,7 +29,7 @@
   },
   "peerDependencies": {
     "@koishijs/plugin-adapter-onebot": "^4.0.2",
-    "koishi": "^4.2.0"
+    "koishi": "^4.2.1"
   },
   "devDependencies": {
     "@types/node": "^16.10.3",
