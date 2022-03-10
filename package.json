@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-dispose",
   "version": "9.4.0",
-  "description": "Koishi 退群插件，管理员使用 `dispose` 命令即可退群。",
+  "description": "Koishi plugin for quitting QQ group.",
   "main": "dist/index.js",
   "typings": "dist/src/index.d.ts",
   "scripts": {
@@ -31,7 +31,7 @@
   },
   "peerDependencies": {
     "@koishijs/plugin-adapter-onebot": "^4.0.2",
-    "koishi": "^4.4.0"
+    "koishi": "^4.4.1"
   },
   "devDependencies": {
     "@koishijs/plugin-cache-lru": "^1.0.0-rc.0",
