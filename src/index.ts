@@ -1,4 +1,4 @@
-import 'source-map-support/register';
+// import 'source-map-support/register';
 import { Context } from 'koishi';
 import { PluginConfig, MyPlugin } from './plugin';
 export * from './plugin';

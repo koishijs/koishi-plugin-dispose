@@ -26,9 +26,6 @@
     "url": "https://github.com/koishijs/koishi-plugin-dispose/issues"
   },
   "homepage": "https://github.com/koishijs/koishi-plugin-dispose",
-  "dependencies": {
-    "source-map-support": "^0.5.20"
-  },
   "peerDependencies": {
     "@koishijs/plugin-adapter-onebot": "^4.0.2",
     "koishi": "^4.4.1"
