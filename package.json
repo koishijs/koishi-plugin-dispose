@@ -28,7 +28,7 @@
   "homepage": "https://github.com/koishijs/koishi-plugin-dispose",
   "peerDependencies": {
     "@koishijs/plugin-adapter-onebot": "^4.0.2",
-    "koishi": "^4.6.1"
+    "koishi": "^4.6.2"
   },
   "devDependencies": {
     "@koishijs/plugin-cache-lru": "^1.0.0-rc.0",
