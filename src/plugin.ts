@@ -1,6 +1,6 @@
 // import 'source-map-support/register';
 import { Context, Schema, Session } from 'koishi';
-import type { OneBotBot } from '@koishijs/plugin-adapter-onebot/lib/bot';
+import type { OneBotBot } from '@koishijs/plugin-adapter-onebot';
 
 export interface PluginConfig {
   commmandName?: string;
@@ -28,7 +28,7 @@ export class MyPlugin {
     if (!session.guildId) {
       return;
     }
-    const bot = session.bot as OneBotBot;
+    const bot = session.bot as unknown as OneBotBot;
     const memberInfo = await bot.getGuildMember(
       session.guildId,
       session.userId,
