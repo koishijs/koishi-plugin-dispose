@@ -1,6 +1,6 @@
 {
   "name": "koishi-plugin-dispose",
-  "version": "11.0.1",
+  "version": "11.0.2",
   "description": "Koishi plugin for quitting QQ group.",
   "main": "dist/index.js",
   "typings": "dist/src/index.d.ts",
