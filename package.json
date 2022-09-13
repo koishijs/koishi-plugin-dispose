@@ -28,12 +28,12 @@
   "homepage": "https://github.com/koishijs/koishi-plugin-dispose",
   "peerDependencies": {
     "@koishijs/plugin-adapter-onebot": "^5.0.6",
-    "koishi": "^4.8.7"
+    "koishi": "^4.9.1"
   },
   "devDependencies": {
-    "@koishijs/plugin-console": "^4.1.1",
-    "@koishijs/plugin-database-memory": "^1.4.1",
-    "@koishijs/plugin-sandbox": "^2.0.1",
+    "@koishijs/plugin-console": "^4.5.4",
+    "@koishijs/plugin-database-memory": "^1.5.0",
+    "@koishijs/plugin-sandbox": "^2.2.9",
     "@types/jest": "^27.4.0",
     "@types/node": "^16.10.3",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
