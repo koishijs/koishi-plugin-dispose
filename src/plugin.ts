@@ -1,4 +1,3 @@
-// import 'source-map-support/register';
 import { Context, Schema, Session } from 'koishi';
 import type { OneBotBot } from '@koishijs/plugin-adapter-onebot';
 
